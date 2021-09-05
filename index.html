@@ -14,21 +14,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <script>
-            $(".btn-primary").click(function(){
-                $(".collapse").collapse('toggle');
-            });
-            $(".btn-success").click(function(){
-                $(".collapse").collapse('show');
-            });
-            $(".btn-warning").click(function(){
-                $(".collapse").collapse('hide');
-            });
-        </script>
-
         <style>
             body{
-                background-image: url("./graphics/xl/images.jpg");
+                background-image: url("../graphics/xl/images.jpg");
                 background-position: auto ;
                 background-size: 100%;
                 background-position-x: 50%;
@@ -104,7 +92,7 @@
         <nav class="navbar navbar-dark bg-secondary mb-xs-0 mb-sm-0 mb-md-0 mb-lg-0 mb-xl-4">
             <div class="container">
                 <a class="navbar-brand mb-0 h1 ml-4" href="#">
-                    <img class="thumbnail" src="./graphics/xs/light/favicon.png">
+                    <img class="thumbnail" src="../graphics/xs/light/favicon.png">
                 </a>
                 <style>
                     .nav-item:first-child > .nav-link{
@@ -126,7 +114,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
                     <div class="card border-0">
                         <div class="card-body">
-                            <h1 class="card-title site-title">Crowdfund Cringe</h1>
+                            <h2 class="card-title site-title">Crowdfund Cringe</h2>
                             <p class="card-text">Our team is about creating a social network that does not empower the people that we really don't want in our lives. Developers utilize this crowdfund too help market for donations and cover the projects cost.</p>
                             <p class="card-text">We want to provide you with interactions that matter.</p>
                             <div class="text-right">
@@ -134,14 +122,13 @@
                                 <button class="card-link btn btn-primary btn-md bg-secondary text-light" type="button" data-toggle="collapse" data-target="#frmDonate" aria-expanded="false" aria-controls="frmDonate">Donate
                                 </button>
                                 <button class="card-link btn btn-primary btn-md bg-secondary text-light">Subscribe</button>
-
                             </div>
                         </div> 
                     </div>
                 </div>
                 <div class="d-none d-xs-none d-sm-none d-md-none d-lg-none d-xl-flex col-xl-4">
                     <div class="container">
-                        <div class="div-thumbnail" style="background-image: url('./graphics/xl/community-gears.jpg');">
+                        <div class="div-thumbnail" style="background-image: url('../graphics/xl/community-gears.jpg');">
                             <h3 class="display-2">
                                 <sub>1</sub>
                                 Contribution
@@ -156,13 +143,13 @@
             <label class="container-fluid">
                 Your Name: 
             </label>
-            <div class="form-group d-flex flex-row justify-content-between row">
-                <div class="col-6">
+            <div class="form-group d-flex flex-row row">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                     <div class="container">
                         <input class="form-control" type="text" placeholder="First" />
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                     <div class="container">
                         <input class="form-control" type="text" placeholder="Last" />
                     </div>
@@ -172,19 +159,19 @@
                 Your Birthday: 
             </label>
             <div class="form-group d-flex flex-row justify-content-between row">
-                <div class="col-4">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                     <div class="container">
-                        <input class="form-control" type="text" placeholder="First" />
+                        <input class="form-control" type="text" placeholder="Month" />
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-3 mt-xs-3 mt-sm-3 mt-md-3 mt-lg-3 mt-xl-0">
                     <div class="container">
-                        <input class="form-control" type="text" placeholder="Last" />
+                        <input class="form-control" type="text" placeholder="Day" />
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-3 mt-xs-3 mt-sm-3 mt-md-3 mt-lg-3 mt-xl-0">
                     <div class="container">
-                        <input class="form-control" type="text" placeholder="Last" />
+                        <input class="form-control" type="text" placeholder="Year" />
                     </div>
                 </div>
             </div>
@@ -194,7 +181,7 @@
             <div class="form-group d-flex flex-row justify-content-between row">
                 <div class="col-12">
                     <div class="container">
-                        <input class="form-control" type="text" placeholder="First" />
+                        <input class="form-control" type="text" placeholder="someone@somewhere.com" />
                     </div>
                 </div>
             </div>
@@ -204,7 +191,7 @@
             <div class="form-group d-flex flex-row justify-content-between row">
                 <div class="col-12">
                     <div class="container">
-                        <input class="form-control" type="text" placeholder="First" />
+                        <input class="form-control" type="text" placeholder="How much are you contributing?" />
                     </div>
                 </div>
             </div>
@@ -214,18 +201,18 @@
             <div class="form-group d-flex flex-row justify-content-between row">
                 <div class="col-12">
                     <div class="container">
-                        <textarea class="form-control" type="text" placeholder="First"></textarea>
+                        <textarea class="form-control" type="text" placeholder="The writing on our wall."></textarea>
                     </div>
                 </div>
             </div>
             <div class="form-group d-flex flex-row justify-content-between row">
-                <div class="offset-4 col-4">
+                <div class="offset-xs-0 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-4 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                     <div class="container">
-                        <button class="ml-auto form-control" type="button" data-toggle="collapse" data-target="#frmDonate" aria-expanded="false" aria-controls="frmDonate">Cancel
+                        <button class="form-control" type="button" data-toggle="collapse" data-target="#frmDonate" aria-expanded="false" aria-controls="frmDonate">Cancel
                         </button>
                     </div>
                 </div>
-                <div class="col-4 ml">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                     <div class="container">
                         <input type="submit" class="form-control" value="Donate" />
                     </div>
@@ -233,17 +220,17 @@
             </div>
         </form>
         <form class="container collapse" id="frmContact">
-            <h1 class="container-fluid text-center">Thanks for reaching out to us.</h1>
+            <h2 class="container-fluid text-center">Thanks for reaching out to us.</h2>
             <label class="container-fluid">
                 Your Name: 
             </label>
-            <div class="form-group d-flex flex-row justify-content-between row">
-                <div class="col-6">
+            <div class="form-group d-flex flex-row row">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                     <div class="container">
                         <input class="form-control" type="text" placeholder="First" />
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                     <div class="container">
                         <input class="form-control" type="text" placeholder="Last" />
                     </div>
@@ -255,7 +242,7 @@
             <div class="form-group d-flex flex-row justify-content-between row">
                 <div class="col-12">
                     <div class="container">
-                        <input class="form-control" type="text" placeholder="First" />
+                        <input class="form-control" type="text" placeholder="someone@some.where" />
                     </div>
                 </div>
             </div>
@@ -265,7 +252,7 @@
             <div class="form-group d-flex flex-row justify-content-between row">
                 <div class="col-12">
                     <div class="container">
-                        <input class="form-control" type="text" placeholder="First" />
+                        <input class="form-control" type="text" placeholder="Subject Line" />
                     </div>
                 </div>
             </div>
@@ -275,26 +262,26 @@
             <div class="form-group d-flex flex-row justify-content-between row">
                 <div class="col-12">
                     <div class="container">
-                        <textarea class="form-control" type="text" placeholder="First"></textarea>
+                        <textarea class="form-control" type="text" placeholder="Compose your message here."></textarea>
                     </div>
                 </div>
             </div>
             <label class="container-fluid">Attatchments</label>
             <div class="form-group d-flex flex-row row flex-wrap">
-                <div class="col-4">
+                <div class="col-12">
                     <div class="container">
                         <input type="file" id="fileUpload1">
                     </div>
                 </div>             
             </div>
             <div class="form-group d-flex flex-row justify-content-between row">
-                <div class="offset-4 col-4">
+                <div class="offset-0 offset-xs-0 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-4 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                     <div class="container">
-                        <button class="ml-auto form-control" type="button" data-toggle="collapse" data-target="#frmContact" aria-expanded="false" aria-controls="frmContact">Cancel
+                        <button class="form-control" type="button" data-toggle="collapse" data-target="#frmContact" aria-expanded="false" aria-controls="frmContact">Cancel
                         </button>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                     <div class="container">
                         <input type="submit" class="form-control" value="Send" />
                     </div>
@@ -334,7 +321,7 @@
                 </style>
                 <div class="d-xs-flex d-sm-flex d-md-flex d-lg-flex d-xl-none col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="container">
-                        <div class="div-thumbnail" style="background-image: url('./graphics/xl/community-gears.jpg')">
+                        <div class="div-thumbnail" style="background-image: url('../graphics/xl/community-gears.jpg')">
                             <h3 class="display-2">
                                 <sub>1</sub>
                                 Contribution
@@ -344,7 +331,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                     <div class="container">
-                        <div class="div-thumbnail" style="background-image: url('./graphics/xl/palm-trees.jpg')">
+                        <div class="div-thumbnail" style="background-image: url('../graphics/xl/palm-trees.jpg')">
                             <h3 class="display-2">
                                 <sub>0</sub>
                                 Visitors
@@ -354,7 +341,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                     <div class="container">
-                        <div class="div-thumbnail" style="background-image: url('./graphics/xl/rocket-ship.jpg')">
+                        <div class="div-thumbnail" style="background-image: url('../graphics/xl/rocket-ship.jpg')">
                             <h3 class="display-2">
                                 <sub>$748</sub>
                                 Invested this week
@@ -364,7 +351,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                     <div class="container">
-                        <div class="div-thumbnail" style="background-image: url('./graphics/xl/mountain-climber.jpg')">
+                        <div class="div-thumbnail" style="background-image: url('../graphics/xl/mountain-climber.jpg')">
                             <h3 class="display-2">
                                 <sub>$1,895</sub>
                                 Weekly Goal
@@ -398,5 +385,6 @@
                 </div>
             </div>
         </div>
+
     </body>
 </html>
