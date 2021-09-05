@@ -14,6 +14,18 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+        <script>
+            $(".btn-primary").click(function(){
+                $(".collapse").collapse('toggle');
+            });
+            $(".btn-success").click(function(){
+                $(".collapse").collapse('show');
+            });
+            $(".btn-warning").click(function(){
+                $(".collapse").collapse('hide');
+            });
+        </script>
+
         <style>
             body{
                 background-image: url("../graphics/xl/images.jpg");
@@ -144,7 +156,7 @@
                 Your Name: 
             </label>
             <div class="form-group d-flex flex-row row">
-                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-0">
                     <div class="container">
                         <input class="form-control" type="text" placeholder="First" />
                     </div>
@@ -225,7 +237,7 @@
                 Your Name: 
             </label>
             <div class="form-group d-flex flex-row row">
-                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 mt-xs-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-0">
                     <div class="container">
                         <input class="form-control" type="text" placeholder="First" />
                     </div>
