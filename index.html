@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="./assets/reset-2.0.0-dist/css/reset.css" />
+      <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.css" />
+      <title>Loading</title>
+   </head>
+   <body class="bg-secondary"> 
+      
+      <div class="d-flex flex-column align-items-center justify-content-center vh-100">
+         <div class="spinner-border" role="status" style="height: 15rem; width: 15rem">
+            <span class="visually-hidden"></span>
+         </div>
+         <h1 class="display-4 pt-4">Checking Client Requirements</h1>
+      </div>
+
+      <script src="./assets/popper-2.9.2-dist/js/popper.js"></script>
+      <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+      <script type="text/javascript">
+         window.onload = function() {
+             setTimeout(function() {
+                 window.location = "./home";
+             }, 500);
+         }; 
+      </script>
+   </body>
+</html>
