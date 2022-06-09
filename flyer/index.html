@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="
@@ -25,6 +25,49 @@
         </title>
         <link rel="stylesheet" type="text/css" href="https://kevinbharris.github.io/assets/reset-2.0.0-dist/css/reset.css" />
         <link rel="stylesheet" type="text/css" href="https://kevinbharris.github.io/assets/bootstrap-5.0.2-dist/css/bootstrap.css" />
+        <style>
+            .services .card{
+                    margin: 1rem 0rem;
+            }
+
+            @media (min-width: 992px) {
+
+                .services .card{
+                    width: calc(50% - (2rem + 2px));
+                }
+
+                .services .card{
+                    margin: 1.75rem 1rem;
+                }
+
+                .services .card:nth-child(odd){
+                    margin-left: 0px;
+                }
+
+                .services .card:nth-child(even){
+                    margin-right: 0px;
+                }
+            }
+
+            @media (min-width: 1200px) {
+
+                .services .card{
+                    width: calc(33.333% - (2rem + 2px));
+                }
+
+                .services .card:nth-child(3n+1){
+                    margin: 1.75rem 1rem 1.75rem 0rem;
+                }
+
+                .services .card:nth-child(3n+2){
+                    margin: 1.75rem 1rem 1.75rem 1rem;	
+                }
+
+                .services .card:nth-child(3n+3){
+                    margin: 1.75rem 0rem 1.75rem 1rem;
+                }
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -77,49 +120,6 @@
                 <div class="section-header">
                     <h3 class="display-2 text-center">Computer Programmer</h3>
                 </div>
-                <style>
-	                .services .card{
-		                    margin: 1rem 0rem;
-	                }
-
-                    @media (min-width: 992px) {
-
-	                    .services .card{
-		                    width: calc(50% - (2rem + 2px));
-	                    }
-
-	                    .services .card{
-		                    margin: 1.75rem 1rem;
-	                    }
-
-	                    .services .card:nth-child(odd){
-		                    margin-left: 0px;
-	                    }
-
-	                    .services .card:nth-child(even){
-		                    margin-right: 0px;
-	                    }
-                    }
-
-                    @media (min-width: 1200px) {
-
-	                    .services .card{
-		                    width: calc(33.333% - (2rem + 2px));
-	                    }
-	
-	                    .services .card:nth-child(3n+1){
-		                    margin: 1.75rem 1rem 1.75rem 0rem;
-	                    }
-
-	                    .services .card:nth-child(3n+2){
-		                    margin: 1.75rem 1rem 1.75rem 1rem;	
-	                    }
-
-	                    .services .card:nth-child(3n+3){
-		                    margin: 1.75rem 0rem 1.75rem 1rem;
-	                    }
-                    }
-                </style>
                 <div class="section-body d-flex flex-column flex-md-row flex-no-wrap flex-md-wrap justify-content-between mt-6">
                     <div class="card text-center">
                         <div class="card-header bg-white">
@@ -195,13 +195,13 @@
             </section>
         </main>
         <footer class="bg-light">
-            <section class="patton container d-flex justify-content-between">
+            <div class="patton container d-flex justify-content-between">
                 <div class="d-none d-lg-block social-media"></div>
                 <p>
                     Copyright &copy; 2022 Kevin B. Harris<br />
                     All Rights Reserved
                 </p>
-            </section>
+            </div>
         </footer>
         <script src="https://kevinbharris.github.io/assets/popper-2.9.2-dist/js/popper.js"></script>
         <script src="https://kevinbharris.github.io/assets/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
