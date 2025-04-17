@@ -1,0 +1,246 @@
+@media(min-width:1201px) and (max-width:1600px){
+    .navbar-light .navbar-nav li{margin-right: 25px;}
+
+    .hero-wrp .description h3{font-size: 45px;}
+    .hero-wrp .description h2{font-size: 80px;}
+    .hero-wrp .description h4{font-size: 28px;}
+    .hero-wrp .container{max-width: 990px;}
+    .hero-wrp .slick-prev, .hero-wrp .slick-next{left: 20px;}
+    .hero-wrp .slick-next{left: auto;right: 20px;}
+    .hero-wrp .description p{margin: 0 0 80px;}
+
+    .about-wrp{padding: 60px 0;}
+    .about-wrp .abt-description h2{font-size: 32px;}
+    .about-wrp .abt-description h3{font-size: 20px;line-height: 30px;}
+    .about-wrp .abt-description p{font-size: 15px;line-height: 20px;}
+    .about-wrp .abt-description .btn-primary{margin: 0;}
+    .help-wrp .help-box p{min-height: 96px;}
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+    header .container {max-width: 960px;}
+	.navbar-light .navbar-nav li{margin-right: 15px;}
+	.navbar-light .navbar-nav .nav-link{font-size: 16px;padding: 5px 20px;}
+	.navbar .navbar-nav li.dropdown .dropdown-toggle{font-size: 16px;padding: 5px 0}
+
+	.btn-primary{padding: 12px 30px;font-size: 18px;}
+
+	.hero-wrp .container{max-width: 800px;}
+	.hero-wrp .description h3{font-size: 24px;}
+    .hero-wrp .description h2{font-size: 50px;line-height: 60px;}
+    .hero-wrp .description h4{font-size: 26px;}
+    .hero-wrp .description p{font-size: 16px;line-height: 24px;margin: 0 0 30px;}
+    .hero-wrp .description .btn-primary{margin-left: 10px;}
+    .hero-wrp .slick-prev, .hero-wrp .slick-next{left: 15px;}
+    .hero-wrp .slick-next{right: 15px;left: auto;}
+
+    .about-wrp{padding: 60px 0;}
+    .about-wrp .about-img{width: 100%;position: relative;top: 0;left: 0;right: 0;transform: unset;margin: 0 0 20px;}
+    .about-wrp .abt-description h2{font-size: 32px;}
+    .about-wrp .abt-description h3{font-size: 20px;line-height: 30px;}
+    .about-wrp .abt-description h3 br{display: none;}
+    .about-wrp .abt-description .btn-primary{margin: 0;}
+
+    .help-wrp{padding: 60px 0 0;}
+    .help-wrp .row{margin: 0 -10px;}
+    .help-wrp .col-md-4{padding: 0 10px;}
+
+    .titlebar h2{font-size: 32px;margin: 0 0 30px;}
+    .help-wrp .help-box{margin: 0 0 20px;}
+    .help-wrp .help-box p{min-height: 140px;}
+    .help-wrp .help-box h3{font-size: 20px;}
+    .available-block{margin: 40px 0 0;}
+    .available-block h2{font-size: 32px;margin: 0 0 20px;}
+
+    .counter-wrp{padding: 60px 0;}
+    .counter-wrp .count-box h2{font-size: 40px;line-height: 50px;margin: 0 0 10px;}
+    .counter-wrp .count-box p{font-size: 18px;}
+
+    .reviews-wrp{padding: 60px 0;}
+    .reviews-wrp .row{margin: 0 -10px;}
+    .reviews-wrp .row .col-md-4{padding: 0 10px}
+    .reviews-wrp .review-box .description{padding: 15px;}
+    .reviews-wrp .review-box .description h4{font-size: 19px;}
+    .reviews-wrp .review-box .description h5{margin: 0 -15px 15px;padding: 0 15px 10px;}
+
+    .contact-wrp{padding: 60px 0;}
+    .contact-wrp form button{margin-left: 10px;letter-spacing: 2px;padding: 12px 24px;}
+    .contact-wrp form .form-group .form-control{padding: 12px 24px;}
+
+    footer{padding: 30px 0;}
+    footer p{font-size: 14px;}
+    footer p small{font-size: 14px;margin-right: 5px;}
+}
+
+@media(min-width:992px) and (max-width:1024px){
+    header .container {max-width: 960px;}
+	.navbar-light .navbar-nav li{margin-right: 15px;}
+	.navbar-light .navbar-nav .nav-link{font-size: 16px;padding: 5px 20px;}
+	.navbar .navbar-nav li.dropdown .dropdown-toggle{font-size: 16px;padding: 5px 0}
+
+	.btn-primary{padding: 12px 30px;font-size: 18px;}
+
+	.hero-wrp .container{max-width: 800px;}
+	.hero-wrp .description h3{font-size: 24px;}
+    .hero-wrp .description h2{font-size: 50px;line-height: 60px;}
+    .hero-wrp .description h4{font-size: 26px;}
+    .hero-wrp .description p{font-size: 16px;line-height: 24px;margin: 0 0 30px;}
+    .hero-wrp .description .btn-primary{margin-left: 10px;}
+    .hero-wrp .slick-prev, .hero-wrp .slick-next{left: 15px;}
+    .hero-wrp .slick-next{right: 15px;left: auto;}
+
+    .about-wrp{padding: 60px 0;}
+    .about-wrp .about-img{width: 100%;position: relative;top: 0;left: 0;right: 0;transform: unset;margin: 0 0 20px;}
+    .about-wrp .abt-description h2{font-size: 32px;}
+    .about-wrp .abt-description h3{font-size: 20px;line-height: 30px;}
+    .about-wrp .abt-description h3 br{display: none;}
+    .about-wrp .abt-description .btn-primary{margin: 0;}
+
+    .help-wrp{padding: 60px 0 0;}
+    .help-wrp .row{margin: 0 -10px;}
+    .help-wrp .col-md-4{padding: 0 10px;}
+
+    .titlebar h2{font-size: 32px;margin: 0 0 30px;}
+    .help-wrp .help-box{margin: 0 0 20px;}
+    .help-wrp .help-box p{min-height: 140px;}
+    .help-wrp .help-box h3{font-size: 20px;}
+    .available-block{margin: 40px 0 0;}
+    .available-block h2{font-size: 32px;margin: 0 0 20px;}
+
+    .counter-wrp{padding: 60px 0;}
+    .counter-wrp .count-box h2{font-size: 40px;line-height: 50px;margin: 0 0 10px;}
+    .counter-wrp .count-box p{font-size: 18px;}
+
+    .reviews-wrp{padding: 60px 0;}
+    .reviews-wrp .row{margin: 0 -10px;}
+    .reviews-wrp .row .col-md-4{padding: 0 10px}
+    .reviews-wrp .review-box .description{padding: 15px;}
+    .reviews-wrp .review-box .description h4{font-size: 19px;}
+    .reviews-wrp .review-box .description h5{margin: 0 -15px 15px;padding: 0 15px 10px;}
+
+    .contact-wrp{padding: 60px 0;}
+    .contact-wrp form button{margin-left: 10px;letter-spacing: 2px;padding: 12px 24px;}
+    .contact-wrp form .form-group .form-control{padding: 12px 24px;}
+
+    footer{padding: 30px 0;}
+    footer p{font-size: 14px;}
+    footer p small{font-size: 14px;margin-right: 5px;}
+}
+
+@media(min-width:768px) and (max-width:991px){
+	header .container {max-width: 740px;}
+	.navbar-light .navbar-nav li{margin-right: 15px;}
+	.navbar-light .navbar-nav .nav-link{font-size: 16px;padding: 5px 20px;}
+	.navbar .navbar-nav li.dropdown .dropdown-toggle{font-size: 16px;padding: 5px 0}
+
+	.btn-primary{padding: 12px 30px;font-size: 18px;}
+
+	.hero-wrp .container{max-width: 600px;}
+	.hero-wrp .description h3{font-size: 24px;}
+    .hero-wrp .description h2{font-size: 50px;line-height: 60px;}
+    .hero-wrp .description h4{font-size: 26px;}
+    .hero-wrp .description p{font-size: 16px;line-height: 24px;margin: 0 0 30px;}
+    .hero-wrp .description .btn-primary{margin-left: 10px;}
+    .hero-wrp .slick-prev, .hero-wrp .slick-next{left: 15px;}
+    .hero-wrp .slick-next{right: 15px;left: auto;}
+
+    .about-wrp{padding: 60px 0;}
+    .about-wrp .about-img{width: 100%;position: relative;top: 0;left: 0;right: 0;transform: unset;margin: 0 0 20px;}
+    .about-wrp .abt-description h2{font-size: 32px;}
+    .about-wrp .abt-description h3{font-size: 20px;line-height: 30px;}
+    .about-wrp .abt-description h3 br{display: none;}
+    .about-wrp .abt-description .btn-primary{margin: 0;}
+
+    .help-wrp{padding: 60px 0 0;}
+    .help-wrp .row{margin: 0 -10px;}
+    .help-wrp .col-md-4{padding: 0 10px;}
+
+    .titlebar h2{font-size: 32px;margin: 0 0 30px;}
+    .help-wrp .help-box{margin: 0 0 20px;}
+    .help-wrp .help-box p{min-height: 140px;}
+    .help-wrp .help-box h3{font-size: 20px;}
+    .available-block{margin: 40px 0 0;}
+    .available-block h2{font-size: 32px;margin: 0 0 20px;}
+
+    .counter-wrp{padding: 60px 0;}
+    .counter-wrp .count-box h2{font-size: 40px;line-height: 50px;margin: 0 0 10px;}
+    .counter-wrp .count-box p{font-size: 18px;}
+
+    .reviews-wrp{padding: 60px 0;}
+    .reviews-wrp .row{margin: 0 -10px;}
+    .reviews-wrp .row .col-md-4{padding: 0 10px}
+    .reviews-wrp .review-box .description{padding: 15px;}
+    .reviews-wrp .review-box .description h4{font-size: 19px;}
+    .reviews-wrp .review-box .description h5{margin: 0 -15px 15px;padding: 0 15px 10px;}
+
+    .contact-wrp{padding: 60px 0;}
+    .contact-wrp form button{margin-left: 10px;letter-spacing: 2px;padding: 12px 24px;}
+    .contact-wrp form .form-group .form-control{padding: 12px 24px;}
+
+    footer{padding: 30px 0;}
+    footer p{font-size: 14px;}
+    footer p small{font-size: 14px;margin-right: 5px;}
+
+}
+
+@media (max-width: 767px) {
+    header{padding: 15px 0;}
+	header .container {max-width: 1770px;}
+    .navbar-light .navbar-nav{padding: 15px;background: #464646}
+    .navbar-light .navbar-nav li{margin: 0 0 10px;}
+    .navbar-light .navbar-nav .nav-link{display: block;text-align: center;font-size: 16px;}
+    .navbar .navbar-nav li.dropdown .dropdown-toggle{display: block;text-align: center;width: 100%;}
+    
+    .btn-primary{padding: 12px 30px;font-size: 18px;}
+
+    .hero-wrp .container{max-width: 540px;}
+    .hero-wrp .hero-img{height: 600px;}
+    .hero-wrp .description{top: 100px;}
+    .hero-wrp .description h3{font-size: 24px;}
+    .hero-wrp .description h2{font-size: 50px;line-height: 60px;}
+    .hero-wrp .description h4{font-size: 26px;}
+    .hero-wrp .description p{font-size: 16px;line-height: 24px;margin: 0 0 30px;}
+    .hero-wrp .description p br{display: none;}
+    .hero-wrp .description .btn-primary{margin-left: 10px;}
+    .hero-wrp .slick-prev, .hero-wrp .slick-next{top: auto;transform: unset;left: 15px;bottom: 15px;}
+    .hero-wrp .slick-next{left: auto;right: 15px;bottom: 15px;}
+
+    .about-wrp{padding: 60px 0;}
+    .about-wrp .about-img{width: 100%;position: relative;top: 0;left: 0;right: 0;transform: unset;margin: 0 0 20px;}
+    .about-wrp .abt-description h2{font-size: 32px;}
+    .about-wrp .abt-description h3{font-size: 20px;line-height: 30px;}
+    .about-wrp .abt-description h3 br{display: none;}
+    .about-wrp .abt-description .btn-primary{margin: 0 0 0 10px;}
+
+    .help-wrp{padding: 60px 0 0;}
+
+    .titlebar h2{font-size: 32px;margin: 0 0 30px;}
+    .help-wrp .help-box{margin: 0 0 20px;}
+    .help-wrp .help-box p{min-height: unset;}
+    .available-block h2{font-size: 32px;margin: 0 0 20px;}
+
+    .counter-wrp{padding: 60px 0 30px;}
+    .counter-wrp .count-box{margin: 0 0 30px;}
+    .counter-wrp .count-box h2{font-size: 40px;line-height: 50px;margin: 0 0 10px;}
+    .counter-wrp .count-box p{font-size: 18px;}
+
+    .reviews-wrp{padding: 60px 0 50px;}
+    .reviews-wrp .review-box{margin: 0 0 10px;}
+    .reviews-wrp .review-box .description h4{font-size: 24px;}
+
+    .contact-wrp{padding: 60px 0;}
+    .contact-wrp form button{margin-left: 10px;letter-spacing: 2px;padding: 12px 24px;}
+    .contact-wrp form .form-group .form-control{padding: 12px 24px;}
+
+    footer{padding: 30px 0;}
+    footer p{font-size: 14px;}
+    footer p small{font-size: 14px;margin-right: 5px;}
+}
+
+@media(min-width:576px) and (max-width:767px){
+    
+}
+
+@media(min-width:448px) and (max-width:575px){
+    
+}
