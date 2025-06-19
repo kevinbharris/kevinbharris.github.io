@@ -425,10 +425,10 @@ header.nav-new .navbar {
     border-bottom: 1px solid #212121;
     position: relative;
 }
-.about-wrp .abt-description h2 span {
+.about-wrp .abt-description h2 span.title {
     color: #e7b710;
 }
-.about-wrp .abt-description h2 span:before {
+.about-wrp .abt-description h2 span.title:before {
     position: absolute;
     content: "";
     height: 14px;
