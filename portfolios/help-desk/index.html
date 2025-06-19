@@ -34,19 +34,6 @@
                     'sitekey' : '6LfrnRsrAAAAAKDuHyqec3mnWWZTMcLAg08zF-Ug'
                 });
             };
-
-            function calculate_age(dob) { 
-                // Calculate the difference in milliseconds between the current date and the provided date of birth
-                var diff_ms = Date.now() - dob.getTime();
-    
-                // Create a new Date object representing the difference in milliseconds and store it in the variable age_dt (age Date object)
-                var age_dt = new Date(diff_ms); 
-  
-                // Calculate the absolute value of the difference in years between the age Date object and the year 1970 (UNIX epoch)
-                return Math.abs(age_dt.getUTCFullYear() - 1970);
-            }
-
-            document.getElementById("age").textContent = age(new Date(1982, 11, 4));
         </script>
     </head>
     <body>
@@ -394,6 +381,20 @@
         <script src="js/aos.js"></script>        
         <script src="js/custom.js"></script>
         <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+        <script>
+            function calculate_age(dob) { 
+                // Calculate the difference in milliseconds between the current date and the provided date of birth
+                var diff_ms = Date.now() - dob.getTime();
+    
+                // Create a new Date object representing the difference in milliseconds and store it in the variable age_dt (age Date object)
+                var age_dt = new Date(diff_ms); 
+  
+                // Calculate the absolute value of the difference in years between the age Date object and the year 1970 (UNIX epoch)
+                return Math.abs(age_dt.getUTCFullYear() - 1970);
+            }
+
+            document.getElementById("age").textContent = age(new Date(1982, 11, 4));
+        </script>
         
     </body>
 </html>
